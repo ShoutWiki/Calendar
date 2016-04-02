@@ -6,14 +6,14 @@
 ** @link http://www.mediawiki.org/wiki/Extension:Calendar_(Barrylb)
 */
 .calendar {
-	background-color: #dddddd;
-	border: 1px solid #bbbbbb;
+	background-color: #ddd;
+	border: 1px solid #bbb;
 	font-size: 9px;
 	line-height: normal;
 }
 
 .calendar a {
-	color: #000000;
+	color: #000;
 }
 
 .calendar td {
@@ -23,7 +23,7 @@
 }
 
 .calendarTop td {
-	background-color: #bbbbbb;
+	background-color: #bbb;
 	font-weight: bold;
 }
 
@@ -32,37 +32,31 @@
 }
 
 .calendarDayNames {
-	background-color: #dddddd;
+	background-color: #ddd;
 }
 
 .calendarupcoming {
-	border: 1px solid #bbbbbb;
-	font-size: 10px;
+	border: 1px solid #bbb;
+	font-size: .625em;
 	line-height: normal;
 	margin-top: 6px;
 	width: 100%;
 }
 
 .calendarupcomingTop {
-	padding-top: 2px;
-	padding-bottom: 2px;
-	padding-left: 3px;
-	padding-right: 3px;
-	background-color: #bbbbbb;
+	padding: 2px 3px;
+	background-color: #bbb;
 	font-weight: bold;
 }
 
 .calendarupcomingBottom {
-	padding-top: 2px;
-	padding-bottom: 2px;
-	padding-left: 3px;
-	padding-right: 3px;
-	background-color: #bbbbbb;
+	padding: 2px 3px;
+	background-color: #bbb;
 	font-weight: bold;
 }
 
 .calendarupcomingBottom a {
-	color: #000000;
+	color: #000;
 }
 
 .calendarupcomingRow1 {
@@ -71,28 +65,19 @@
 
 .calendarupcomingRow2 {
 	padding: 3px;
-	border-top: 1px dotted #bbbbbb;
+	border-top: 1px dotted #bbb;
 }
 
-.calendarupcomingRow1 a {
-	color: #000000;
-}
-
-.calendarupcomingRow1 a:visited {
-	color: #000000;
-}
-
-.calendarupcomingRow2 a {
-	color: #000000;
-}
-
+.calendarupcomingRow1 a,
+.calendarupcomingRow1 a:visited,
+.calendarupcomingRow2 a,
 .calendarupcomingRow2 a:visited {
-	color: #000000;
+	color: #000;
 }
 
 td.cal-today {
 	font-weight: bold;
-	background-color: #BBBBBB;
+	background-color: #bbb;
 }
 
 td.cal-eventday {
