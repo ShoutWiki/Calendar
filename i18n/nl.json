@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mitchel Corstjens"
+		]
+	},
+	"calendar-more": "Meer &raquo;",
+	"calendar-multiple-events": "meerdere evenementen",
+	"calendar-pipe-separated-weekdays": "Z|M|D|W|D|V|Z",
+	"events": "Evenementen",
+	"events-categoryname": "Evenementen",
+	"events-upcoming": "Aan komende evenementen"
+}

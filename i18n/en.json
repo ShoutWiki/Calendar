@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Barrylb"
+		]
+	},
+	"calendar-more": "More &raquo;",
+	"calendar-multiple-events": "multiple events",
+	"calendar-pipe-separated-weekdays": "S|M|T|W|T|F|S",
+	"events": "Events",
+	"events-categoryname": "Events",
+	"events-header": "",
+	"events-upcoming": "Events Upcoming",
+	"events-no-upcoming-events": "No upcoming events."
+}

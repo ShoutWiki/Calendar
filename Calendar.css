@@ -1,0 +1,100 @@
+/*
+** Calendar extension CSS styles
+**
+** @license Public domain
+** @author Barrylb
+** @link http://www.mediawiki.org/wiki/Extension:Calendar_(Barrylb)
+*/
+.calendar {
+	background-color: #dddddd;
+	border: 1px solid #bbbbbb;
+	font-size: 9px;
+	line-height: normal;
+}
+
+.calendar a {
+	color: #000000;
+}
+
+.calendar td {
+	text-align: center;
+	padding: 4px;
+	margin: 0;
+}
+
+.calendarTop td {
+	background-color: #bbbbbb;
+	font-weight: bold;
+}
+
+.calendarTop a {
+	color: #000000;
+}
+
+.calendarDayNames {
+	background-color: #dddddd;
+}
+
+.calendarupcoming {
+	border: 1px solid #bbbbbb;
+	font-size: 10px;
+	line-height: normal;
+	margin-top: 6px;
+	width: 100%;
+}
+
+.calendarupcomingTop {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	background-color: #bbbbbb;
+	font-weight: bold;
+}
+
+.calendarupcomingBottom {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	background-color: #bbbbbb;
+	font-weight: bold;
+}
+
+.calendarupcomingBottom a {
+	color: #000000;
+}
+
+.calendarupcomingRow1 {
+	padding: 3px;
+}
+
+.calendarupcomingRow2 {
+	padding: 3px;
+	border-top: 1px dotted #bbbbbb;
+}
+
+.calendarupcomingRow1 a {
+	color: #000000;
+}
+
+.calendarupcomingRow1 a:visited {
+	color: #000000;
+}
+
+.calendarupcomingRow2 a {
+	color: #000000;
+}
+
+.calendarupcomingRow2 a:visited {
+	color: #000000;
+}
+
+td.cal-today {
+	font-weight: bold;
+	background-color: #BBBBBB;
+}
+
+td.cal-eventday {
+	font-weight: bold;
+}

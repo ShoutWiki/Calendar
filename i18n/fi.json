@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jack Phoenix <jack@shoutwiki.com>"
+		]
+	},
+	"calendar-more": "Lisää &raquo;",
+	"calendar-multiple-events": "useita tapahtumia",
+	"calendar-pipe-separated-weekdays": "S|M|T|K|T|P|L",
+	"events": "Tapahtumat",
+	"events-categoryname": "Tapahtumat",
+	"events-upcoming": "Tulevat tapahtumat",
+	"events-no-upcoming-events": "Ei tulevia tapahtumia."
+}

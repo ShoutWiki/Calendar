@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Misiek95"
+		]
+	},
+	"calendar-more": "Więcej &raquo;",
+	"calendar-multiple-events": "wiele wydarzeń",
+	"calendar-pipe-separated-weekdays": "N.|Pn.|Wt.|Śr.|Czw.|Pt.|Sb.",
+	"events": "Wydarzenia",
+	"events-categoryname": "Wydarzenia",
+	"events-upcoming": "Nadchodzące wydarzenia",
+	"events-no-upcoming-events": "Brak nadchodzących wydarzeń."
+}

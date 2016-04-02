@@ -1,0 +1,55 @@
+{
+	"name": "Calendar",
+	"version": "3.0",
+	"author": [
+		"Barrylb",
+		"Jack Phoenix",
+		"Misza",
+		"Ryan Schmidt"
+	],
+	"license-name": "GPL-2.0+",
+	"url": "https://www.mediawiki.org/wiki/Extension:Calendar_(Barrylb)",
+	"description": "Adds <code>&lt;calendar&gt;</code> tag for displaying calendars inside wiki pages and [[Special:Events|a special page]] for viewing existing events",
+	"type": "other",
+	"config": {
+		"CalendarWeekdayStart": 1
+	},
+	"SpecialPages": {
+		"Events": "SpecialEvents"
+	},
+	"MessagesDirs": {
+		"Calendar": [
+			"i18n"
+		]
+	},
+	"APIModules": {
+		"calendar": "ApiCalendar"
+	},
+	"ExtensionMessagesFiles": {
+		"CalendarAliases": "Calendar.alias.php"
+	},
+	"AutoloadClasses": {
+		"ApiCalendar": "ApiCalendar.php",
+		"CalendarHooks": "CalendarHooks.php",
+		"mwCalendar": "Calendar.class.php",
+		"SpecialEvents": "SpecialEvents.page.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"CalendarHooks::registerTag"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "Calendar"
+	},
+	"ResourceModules": {
+		"ext.calendar": {
+			"scripts": "Calendar.js",
+			"dependencies": [ "mediawiki.util" ],
+			"styles": "Calendar.css",
+			"position": "top"
+		}
+	},
+	"manifest_version": 1
+}
